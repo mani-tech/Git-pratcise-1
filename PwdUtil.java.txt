@@ -1,0 +1,9 @@
+public class PwdUtil
+{
+public void encodePwd(String pwd)
+{
+Encoder encoder =Base64.encoder();
+Byte[] bytes=encoder.encode(pwd.getBytes());
+System.out.printl(bytes);
+}
+}
